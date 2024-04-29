@@ -1,0 +1,24 @@
+{
+  "name": "@onenesslabs/crosslightning-base",
+  "version": "0.0.0",
+  "description": "base lib of btc cross chain",
+  "author": "dom <dom@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "types:": "./dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

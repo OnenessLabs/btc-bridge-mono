@@ -1,0 +1,32 @@
+{
+  "name": "@onenesslabs/crosslightning-sdk-base",
+  "version": "8.2.16",
+  "description": "CrossLightning SDK chain-agnostic base",
+  "main": "./dist/index.js",
+  "types:": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "/dist",
+    "/src"
+  ],
+  "keywords": [
+    "Solana",
+    "Bitcoin",
+    "Cross-chain",
+    "Cryptocurrency",
+    "Bridge",
+    "Trustless"
+  ],
+  "author": "adambor",
+  "license": "ISC",
+  "dependencies": {
+    "@bitcoinerlab/secp256k1": "1.0.5",
+    "bolt11": "1.4.1",
+    "buffer": "6.0.3",
+    "cross-fetch": "3.1.5",
+    "crypto-browserify": "3.12.0",
+    "js-lnurl": "0.5.1"
+  }
+}

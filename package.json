@@ -1,0 +1,25 @@
+{
+  "name": "@onenesslabs/crosslightning-mono",
+  "private": true,
+  "workspaces": [
+    "packages/crosslightning-base",
+    "packages/crosslightning-evm",
+    "packages/btc-relay",
+    "packages/btcrelay-bitcoind"
+  ],
+  "scripts": {
+    "build": "tsc --build --verbose tsconfig.build.json"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "6.1.5",
+    "@types/bn.js": "5.1.5",
+    "bn.js": "5.2.1"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/node": "^20.6.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "lerna": "^8.1.2"
+  }
+}
